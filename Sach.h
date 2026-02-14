@@ -1,5 +1,5 @@
 #pragma once
-#include "structs.h"
+#include "Structs.h"
 
 // thao tác đầu sách
 void themDauSach(ListDauSach& ds);

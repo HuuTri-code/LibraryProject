@@ -1,5 +1,5 @@
 #pragma once
-#include "structs.h"
+#include "Structs.h"
 
 bool muonSach(TREE_DocGia root, ListDauSach& ds);
 bool traSach(TREE_DocGia root, ListDauSach& ds);

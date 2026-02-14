@@ -1,5 +1,5 @@
 #pragma once
-#include "structs.h"
+#include "Structs.h"
 
 //void themDocGia(TREE_DocGia& root);
 //void xoaDocGia(TREE_DocGia& root, int maThe);
