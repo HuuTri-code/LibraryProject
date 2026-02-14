@@ -1,9 +1,9 @@
-#include "Structs.h"
-#include "Docgia.h"
-#include "Sach.h"
-#include "Giaodich.h"
-#include "Thongke.h"
-#include "File.h"
+#include "structs.h"
+#include "docgia.h"
+#include "sach.h"
+#include "giaodich.h"
+#include "thongke.h"
+#include "file.h"
 
 int menu() {
     cout << "\n===== MENU =====\n";
