@@ -3,16 +3,17 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++ build all files",
+            "label": "Build All CPP",
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g3",
                 "-Wall",
                 "-Wextra",
-                "${fileDirname}/*.cpp",
+                "${fileDirname}/*.cpp", // Dịch tất cả file .cpp trong thư mục
                 "-o",
-                "${fileDirname}/output/main"
+                "${fileDirname}/output/main", // Xuất ra file main trong output
+                "-I", "${fileDirname}/**"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -24,7 +25,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Biên dịch tất cả file .cpp trong thư mục và xuất ra output/main"
+            "detail": "Biên dịch toàn bộ project cho Hoàng Te"
         }
     ]
 }
