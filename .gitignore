@@ -1,0 +1,8 @@
+Python/myenv/
+*.o
+*.exe
+main
+        
+.venv/
+__pycache__/
+.DS_Store

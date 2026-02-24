@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build All CPP",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g3",
+                "-Wall",
+                "-Wextra",
+                "${fileDirname}/*.cpp", // Dịch tất cả file .cpp trong thư mục
+                "-o",
+                "${fileDirname}/output/main", // Xuất ra file main trong output
+                "-I", "${fileDirname}/**"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Biên dịch toàn bộ project cho Hoàng Te"
+        }
+    ]
+}
