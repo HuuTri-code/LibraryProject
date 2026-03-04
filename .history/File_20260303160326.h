@@ -1,0 +1,7 @@
+#pragma once
+#include "Structs.h"
+
+// -- Code Hoang Te --
+
+// THAO TAC FILE DOC GIA
+bool loadDauSach(const char* filename, ListDauSach& ds);
